@@ -1,0 +1,35 @@
+body {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #445577;
+}
+.container {
+  max-width: 1190px;
+  position: relative;
+  display: flex;
+  height: 650px;
+  justify-content: flex-end;
+  align-items: center;
+}
+.background-element {
+  height: 100%;
+  width: 40%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url('./img/item-black.jpg')  no-repeat;
+  background-size: 105%;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px grey;
+}
+
+.window {
+  background-color: #fff;
+  width: 65%;
+  height: 70%;
+  display: flex;
+  box-shadow: 5px 5px 10px grey;
+}
